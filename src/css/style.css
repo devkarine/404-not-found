@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap");
+
+body {
+  max-width: 1440px;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.logo {
+  font-family: "Inconsolata", monospace;
+  color: #333333;
+  font-weight: 700;
+  font-size: 2.4rem;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  font-weight: 700;
+  color: #333333;
+  font-size: clamp(3rem, 2vw, 5rem);
+  width: clamp(37rem, 4vw, 58rem);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+section .img img{
+  width: 60rem;
+}
+section .bad-news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+section .bad-news p {
+  font-size: clamp(1.7rem, 2vw, 2rem);
+  width: 38rem;
+  height: clamp(8rem, 3vw, 10.8rem);
+}
+
+section .bad-news a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 19rem;
+  height: 5rem;
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+section .bad-news a:hover {
+  scale: 1.1;
+}
+
+@media(max-width:1200px){
+    section,
+    section .bad-news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+
