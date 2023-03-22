@@ -19,8 +19,8 @@ body {
 h1 {
   font-weight: 700;
   color: #333333;
-  font-size: clamp(3rem, 2vw, 5rem);
-  width: clamp(37rem, 4vw, 58rem);
+  font-size: clamp(2rem, 2vw, 4rem);
+  width: clamp(40rem, 4vw, 65rem);
 }
 
 section {
